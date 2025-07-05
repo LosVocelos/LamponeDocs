@@ -30,6 +30,12 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_context = {
+  'display_github': True,
+  'github_user': 'LosVocelos',
+  'github_repo': 'LampoDocs',
+  'github_version': 'main/doc/'
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
