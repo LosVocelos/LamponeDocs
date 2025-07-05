@@ -1,5 +1,3 @@
-:tocdepth: 2
-
 Welcome to Campo Lampone 2025 documentation!
 ============================================
 

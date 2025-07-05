@@ -36,6 +36,13 @@ html_context = {
   'github_repo': 'LamponeDocs',
   'github_version': 'main/docs/source/'
 }
+html_theme_options = {
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 2,
+    'includehidden': True,
+    'titles_only': False
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
