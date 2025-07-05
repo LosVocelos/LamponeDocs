@@ -4,7 +4,8 @@ Server
 This part of the project contains code for the server, that will control traffic lights,
 take photos of of current traffic situation and work as a communication node for all robots.
 
-This document provides instructions for setting up and using our ROS2 project, which leverages `rosboard <https://github.com/LosVocelos/rosboard>`_ for web-based visualization. We have extended rosboard with custom viewers and introduced custom interfaces/messages tailored for our project's specific needs.
+This document provides instructions for setting up and using our ROS2 project, which leverages `rosboard <https://github.com/LosVocelos/rosboard>`_ for web-based visualization.
+We have extended rosboard with custom viewers and introduced custom interfaces/messages tailored for our project's specific needs.
 
 .. contents::
     :depth: 2
@@ -67,7 +68,9 @@ General ROSboard usage
 .. image:: img/ROSboard.png
 
 2. On the left side of the rosboard interface, you will find a menu. Click on it to expand the options.
-3. Within the menu, you can see a list of available ROS2 topics. Click on the topics you wish to visualize to subscribe to them. Rosboard will automatically display the data in appropriate viewers (e.g., plots for numerical data, text for string messages, etc.).
+3. Within the menu, you can see a list of available ROS2 topics.
+   Click on the topics you wish to visualize to subscribe to them.
+   Rosboard will automatically display the data in appropriate viewers (e.g., plots for numerical data, text for string messages, etc.).
 
 
 .. note::
@@ -87,7 +90,7 @@ Road Map Viewer
 Visualizes the map distributed by topic /road_map
 
 .. note::
-   There is another viewer for this topic, labeled "Rendered data", which prints out the the distributed map using only ascii characters,
+   There is another viewer for this topic, labeled "Rendered data", which prints out the distributed map using only ascii characters,
    but will never by updated, as it is not needed anymore.
 
 Lights Data
