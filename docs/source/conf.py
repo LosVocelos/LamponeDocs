@@ -33,8 +33,8 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
   'display_github': True,
   'github_user': 'LosVocelos',
-  'github_repo': 'LampoDocs',
-  'github_version': 'main/doc/'
+  'github_repo': 'LamponeDocs',
+  'github_version': 'main/docs/source/'
 }
 
 # -- Options for EPUB output
