@@ -1,5 +1,5 @@
 Welcome to Campo Lampone 2025 documentation!
-===================================
+============================================
 
 This is a documentation for administration panel (:doc:`server`) and robot ROS workspace (:doc:`robot`)
 
