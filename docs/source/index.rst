@@ -1,3 +1,5 @@
+:tocdepth: 2
+
 Welcome to Campo Lampone 2025 documentation!
 ============================================
 
@@ -11,7 +13,6 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
 
    server
    robot
