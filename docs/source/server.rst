@@ -80,3 +80,19 @@ Custom Viewers Usage
 ^^^^^^^^^^^^^^^^^^^^
 
 This project includes custom viewers integrated into rosboard to display our unique message types and data structures.
+
+Road Map Viewer
+"""""""""""""""
+
+Visualizes the map distributed by topic /road_map
+
+.. note::
+   There is another viewer for this topic, labeled "Rendered data", which prints out the the distributed map using only ascii characters,
+   but will never by updated, as it is not needed anymore.
+
+Lights Data
+"""""""""""
+
+Viewer and publisher for the /traff_lights topic
+
+
