@@ -4,11 +4,11 @@ Server
 This part of the project contains code for the server, that will control traffic lights,
 take photos of of current traffic situation and work as a communication node for all robots.
 
-This document provides instructions for setting up and using our ROS2 project, which leverages `rosboard <https://github.com/rosboard/rosboard>`_ for web-based visualization. We have extended rosboard with custom viewers and introduced custom interfaces/messages tailored for our project's specific needs.
+This document provides instructions for setting up and using our ROS2 project, which leverages `rosboard <https://github.com/LosVocelos/rosboard>`_ for web-based visualization. We have extended rosboard with custom viewers and introduced custom interfaces/messages tailored for our project's specific needs.
 
 .. contents::
-:depth: 2
-:local:
+    :depth: 2
+    :local:
 
 Installation
 ------------
@@ -59,9 +59,13 @@ Usage
 
 After running the main_web.xml launch file, you can access the web visualization and interact with your ROS2 topics.
 
-**General ROSboard usage:**
+General ROSboard usage
+^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open your web browser and navigate to: http://localhost:8888. You should see the rosboard interface.
+
+.. image:: docs/source/img/ROSboard.png
+
 2. On the left side of the rosboard interface, you will find a menu. Click on it to expand the options.
 3. Within the menu, you can see a list of available ROS2 topics. Click on the topics you wish to visualize to subscribe to them. Rosboard will automatically display the data in appropriate viewers (e.g., plots for numerical data, text for string messages, etc.).
 
@@ -72,8 +76,7 @@ After running the main_web.xml launch file, you can access the web visualization
    However, this project uses customized version of ROSboard accessible here: `LosVocelos/rosboard <https://github.com/LosVocelos/rosboard>`_
 
 
+Custom Viewers Usage
+^^^^^^^^^^^^^^^^^^^^
 
-
-
-Custom Viewers Usage:
 This project includes custom viewers integrated into rosboard to display our unique message types and data structures.
