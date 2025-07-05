@@ -64,7 +64,7 @@ General ROSboard usage
 
 1. Open your web browser and navigate to: http://localhost:8888. You should see the rosboard interface.
 
-.. image:: docs/source/img/ROSboard.png
+.. image:: img/ROSboard.png
 
 2. On the left side of the rosboard interface, you will find a menu. Click on it to expand the options.
 3. Within the menu, you can see a list of available ROS2 topics. Click on the topics you wish to visualize to subscribe to them. Rosboard will automatically display the data in appropriate viewers (e.g., plots for numerical data, text for string messages, etc.).
