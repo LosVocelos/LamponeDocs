@@ -94,8 +94,10 @@ Road Map Viewer
 For now, it only plots the map distributed by topic /road_map into a canvas, that you can zoom in/out and move.
 
 .. image:: img/ROSboard_road_map.png
-   :width: 33%
+   :width: 32%
    :align: center
+
+|
 
 .. note::
    There is another viewer for this topic, labeled "Rendered data", which prints out the distributed map using only ascii characters,
@@ -111,13 +113,13 @@ and let's you override their status by clicking on the bulbs and submiting your 
 The viewer then displays your changes, confirming, that the message was published successfully.
 
 .. image:: img/ROSboard_traf_lights_1.png
-   :width: 30%
+   :width: 32%
    :align: left
 
 .. image:: img/ROSboard_traf_lights_3.png
-   :width: 30%
+   :width: 32%
    :align: right
 
 .. image:: img/ROSboard_traf_lights_2.png
-   :width: 30%
+   :width: 32%
    :align: center
