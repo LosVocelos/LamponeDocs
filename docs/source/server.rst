@@ -94,7 +94,7 @@ Road Map Viewer
 For now, it only plots the map distributed by topic /road_map into a canvas, that you can zoom in/out and move.
 
 .. image:: img/ROSboard_road_map.png
-   :width: 32%
+   :width: 31%
    :align: center
 
 |
@@ -113,13 +113,13 @@ and let's you override their status by clicking on the bulbs and submiting your 
 The viewer then displays your changes, confirming, that the message was published successfully.
 
 .. image:: img/ROSboard_traf_lights_1.png
-   :width: 32%
+   :width: 31%
    :align: left
 
 .. image:: img/ROSboard_traf_lights_3.png
-   :width: 32%
+   :width: 31%
    :align: right
 
 .. image:: img/ROSboard_traf_lights_2.png
-   :width: 32%
+   :width: 31%
    :align: center
