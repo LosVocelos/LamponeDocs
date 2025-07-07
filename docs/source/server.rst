@@ -65,13 +65,17 @@ General ROSboard usage
 
 1. Open your web browser and navigate to: http://localhost:8888. You should see the rosboard interface.
 
-.. image:: img/ROSboard.png
+.. image:: img/ROSboard_empty.png
 
 2. On the left side of the rosboard interface, you will find a menu. Click on it to expand the options.
+
+.. image:: img/ROSboard_menu.png
+
 3. Within the menu, you can see a list of available ROS2 topics.
    Click on the topics you wish to visualize to subscribe to them.
    Rosboard will automatically display the data in appropriate viewers (e.g., plots for numerical data, text for string messages, etc.).
 
+.. image:: img/ROSboard_viewers.png
 
 .. note::
    For more information about ROSboard, refer to its `official github repository <https://github.com/dheera/rosboard>`_.
@@ -87,7 +91,9 @@ This project includes custom viewers integrated into rosboard to display our uni
 Road Map Viewer
 """""""""""""""
 
-Visualizes the map distributed by topic /road_map
+For now, it only plots the map distributed by topic /road_map into a canvas, that you can zoom in/out and move.
+
+.. image:: img/ROSboard_road_map.png
 
 .. note::
    There is another viewer for this topic, labeled "Rendered data", which prints out the distributed map using only ascii characters,
@@ -96,6 +102,17 @@ Visualizes the map distributed by topic /road_map
 Lights Data
 """""""""""
 
-Viewer and publisher for the /traff_lights topic
+Viewer and publisher for the /traff_lights topic.
 
+It automatically shows trafic light that are distributed by the server
+and let's you override their status by clicking on the bulbs and submiting your chosen states to the topic.
+The viewer then displays your changes, confirming, that the message was published successfully.
 
+.. image:: img/ROSboard_traf_lights_1.png
+   :width: 30%
+
+.. image:: img/ROSboard_traf_lights_2.png
+   :width: 30%
+
+.. image:: img/ROSboard_traf_lights_3.png
+   :width: 30%

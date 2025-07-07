@@ -8,48 +8,49 @@ This project serves as an administration page for controlling a network of robot
    :depth: 2
    :local:
 
-The core objective of this project was to establish a robust and intuitive system for monitoring and controlling a fleet of autonomous robots.
+The core objective of this project was to make a robust and intuitive system for monitoring and controlling a fleet of autonomous robots.
 My involvement primarily focused on laying the foundational elements for visualization and inter-robot/server communication.
 
 Project Planning and Task Distribution
 --------------------------------------
 
-Following the selection of rosboard as the visualization platform, a comprehensive project plan was developed.
-My responsibility encompassed the entire development of the visualization software.
+A critical initial step was to develop a comprehensive project plan.
+My responsibility encompassed the development of the visualization software.
 However, a crucial part of this planning involved identifying and defining specific tasks that would be assigned to the camp participants.
-This strategic division ensured a clear roadmap for overall project development while providing valuable learning opportunities for the team.
+This division ensured a clear roadmap for overall project development while providing valuable learning opportunities for the teams.
 Key decisions regarding participant tasks included:
 
-- Mapping the Roads: Defining methodologies and tools for participants to create accurate maps of the simulated city roads.
+- Mapping the Roads: Defining methodologies and tools for participants to create accurate maps of the city roads.
 
 - Robot Control Modules: Assigning the development of modules for controlling individual robot behaviors and navigation.
 
 - Traffic Sign Identification: Tasking participants with implementing algorithms and systems for recognizing and interpreting traffic signs within the environment.
 
-- Other Core Robot Functionalities: Delineating additional responsibilities related to autonomous navigation, obstacle avoidance, and inter-robot communication protocols.
+- Other Core Robot Functionalities: Delineating additional responsibilities related to autonomous navigation and obstacle avoidance.
 
-Visualization Software Research and Selection
----------------------------------------------
+Visualization Software Selection
+--------------------------------
 
 Following the project plan, research into existing ROS2 visualization tools was needed.
 The goal was to identify a solution that offered flexibility, web-based accessibility, and ease of extension for custom data types.
 After evaluating several options, rosboard was selected as the optimal choice due to its lightweight nature, real-time capabilities,
-and straightforward architecture for integrating custom viewers, although it doesn't provide an easy way for publishing messages from web out of the box.
+and straightforward architecture for integrating custom viewers,
+although it doesn't provide an easy way for publishing messages from web out of the box.
 
-Development of Custom Messages and Services
--------------------------------------------
+Custom Messages and Services
+----------------------------
 
-To facilitate seamless and efficient communication within the robot network and between robots and the central server, a suite of custom ROS2 messages and services was designed and implemented.
-These custom interfaces were carefully crafted to represent the unique data structures and operational commands required for our "city" environment, ensuring:
+To facilitate seamless and efficient communication within the robot network and between robots and the central server, a suite of custom ROS2 messages and services was designed.
+These custom interfaces were made to represent the unique data structures and operational commands required for our "city" environment, ensuring:
 
-- Robot State Reporting: Messages for transmitting robot position, status (e.g., battery level, current task), and sensor data.
+- Robot State Reporting: Messages for transmitting robot turn signals, velocity, status (e.g., battery level, current task), and sensor data.
 
-- Command and Control: Services and messages for issuing commands to individual robots or groups (e.g., navigate to point, stop, emergency brake).
+- Command and Control: Services and messages for issuing commands to traffic lights (e.g., navigate to point, stop, emergency brake).
 
-- Environmental Data Exchange: Interfaces for sharing information about the simulated city environment, such as traffic light states or obstacle locations.
+- Environmental Data Exchange: Interfaces for sharing information about the simulated city environment, such as traffic light states, map of the roads or locations of other robots.
 
-Implementation of Visualization for Messages and Services
----------------------------------------------------------
+Visualization for Messages and Services
+---------------------------------------
 
 A significant part of the project involved integrating the custom messages and services with rosboard to create a meaningful and intuitive visualization.
 This included:

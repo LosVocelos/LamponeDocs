@@ -15,4 +15,5 @@ Contents
 
    server
    robot
+   interfaces
    overview
