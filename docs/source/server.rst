@@ -111,13 +111,13 @@ and let's you override their status by clicking on the bulbs and submiting your 
 The viewer then displays your changes, confirming, that the message was published successfully.
 
 .. image:: img/ROSboard_traf_lights_1.png
-   :width: 33%
+   :width: 30%
    :align: left
 
 .. image:: img/ROSboard_traf_lights_3.png
-   :width: 33%
+   :width: 30%
    :align: right
 
 .. image:: img/ROSboard_traf_lights_2.png
-   :width: 33%
+   :width: 30%
    :align: center
