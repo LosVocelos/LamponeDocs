@@ -114,10 +114,10 @@ The viewer then displays your changes, confirming, that the message was publishe
    :width: 33%
    :align: left
 
-.. image:: img/ROSboard_traf_lights_2.png
-   :width: 33%
-   :align: center
-
 .. image:: img/ROSboard_traf_lights_3.png
    :width: 33%
    :align: right
+
+.. image:: img/ROSboard_traf_lights_2.png
+   :width: 33%
+   :align: center
